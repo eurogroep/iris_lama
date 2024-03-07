@@ -2,8 +2,8 @@
 Changelog for package iris_lama
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.2 (2024-03-07)
+------------------
 * build: install package.xml
 * Contributors: Rein Appeldoorn
 
