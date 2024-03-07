@@ -2,6 +2,11 @@
 Changelog for package iris_lama
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* build: install package.xml
+* Contributors: Rein Appeldoorn
+
 1.3.1 (2022-09-02)
 ------------------
 * Fix armhf compilation
