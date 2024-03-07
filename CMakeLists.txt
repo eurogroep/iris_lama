@@ -58,3 +58,6 @@ install(FILES
   ${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_PROJECT_NAME}ConfigVersion.cmake
   DESTINATION ${ConfigPackageLocation})
 
+install(FILES
+  ${CMAKE_SOURCE_DIR}/package.xml
+  DESTINATION ${CMAKE_INSTALL_FULL_DATADIR}/${PROJECT_NAME})
