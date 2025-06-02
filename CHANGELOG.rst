@@ -17,7 +17,6 @@ Changelog for package iris_lama
   This saves some cpu cyles and a memory.
 * Fix build for melodic (#33) [Eurico F. Pedrosa]
 
-
 1.3.1 (2022-09-02)
 ------------------
 * Fix armhf compilation
