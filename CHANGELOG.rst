@@ -2,6 +2,21 @@
 Changelog for package iris_lama
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2024-03-11)
+------------------
+* Add an experimental lidar odometry. [Eurico Pedrosa]
+* Build: install package.xml. [Rein Appeldoorn]
+* Update build.yml. [Eurico F. Pedrosa]
+* Add a simple pose graph optimizer. [Eurico F. Pedrosa]
+* Fix ray computation. [Eurico F. Pedrosa]
+* Node mask is now part of the container. [Eurico F. Pedrosa]
+* Add ray casting computation with callback. [Eurico F. Pedrosa]
+
+  By calling a user defined function for each cell the ray visits, we
+  removed the need to store the visited cells before using them.
+  This saves some cpu cyles and a memory.
+* Fix build for melodic (#33) [Eurico F. Pedrosa]
+
 1.3.1 (2022-09-02)
 ------------------
 * Fix armhf compilation
